@@ -1,0 +1,4 @@
+[submodule "nixpkgs"]
+	path = nixpkgs
+	url = git@srdqty.github.com:srdqty/nixpkgs.git
+	branch = master
