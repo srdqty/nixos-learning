@@ -1,0 +1,15 @@
+Add example that adds iana_etc and cacert to docker image.
+
+`ConnectionFailure Network.BSD.getProtocolByName: does not exist (no such protocol name: tcp)`
+
+https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml
+
+https://github.com/Mic92/iana-etc
+
+https://github.com/NixOS/nixpkgs/blob/master/pkgs/data/misc/iana-etc/default.nix
+
+  contents = [
+    pkgs.iana_etc
+    pkgs.cacert
+  ];
+
