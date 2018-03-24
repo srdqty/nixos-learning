@@ -3,7 +3,7 @@
 , fetchFromGitHub ? pkgs.fetchFromGitHub
 , alsaLib ? pkgs.alsaLib
 , fontconfig ? pkgs.fontconfig
-, freettype ? pkgs.freetype
+, freetype ? pkgs.freetype
 , SDL2 ? pkgs.SDL2
 , SDL2_ttf ? pkgs.SDL2_ttf
 , xorg ? pkgs.xorg
@@ -30,7 +30,7 @@ stdenv.mkDerivation rec {
     pkgconfig
     alsaLib
     fontconfig
-    freettype
+    freetype
     SDL2
     SDL2_ttf
     xorg.libX11
